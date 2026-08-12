@@ -12,16 +12,15 @@ class B extends A{
 	int mul(int a, int b){
 		return a*b;
 	}
+}
 	
 class C extends B{
 	void calc() {
-	super.num1=10;
-	super.num2=20;
-	System.out.println("Addition = "+super.add(num1, num2));
-	System.out.println("Multiplyer = "+super.mul(num1, num2));
-	
-}
-
+		super.num1=10;
+		super.num2=20;
+		System.out.println("Addition = "+super.add(num1, num2));
+		System.out.println("Multiplyer = "+super.mul(num1, num2));
+	}
 }
 
 public class MultiLevelInheritance {
